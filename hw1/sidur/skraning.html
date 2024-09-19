@@ -29,73 +29,56 @@
         <main id="efni">
             <div class="content">
                 <form>
-                    <div>
-                        <h2 class="title">Event</h2>
-                        <label>What event do you want to attend?</label>
-                        <select>
-                            <option>Puzzel night</option>
-                            <option>Ticket to Ride</option>
-                        </select>
-                        <br>
-                        <label>When? </label>
-                        <input type="date" required>
-                        <br>
-                        <label>What time? </label>
-                        <select>
-                            <option>10:00-11:00</option>
-                            <option>11:00-12:00</option>
-                        </select>
-                        <br>
-                        <label>How Many? </label>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                        <br>
-                        <label>Do you want to mention something? </label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <h2 class="title">Reserve Food</h2>
-                        <label>Do you want some food?</label>
-                        <select>
-                            <option>A slice of pizza and a soda</option>
-                            <option>Coffee and cake</option>
-                            <option>No food</option>
-                        </select>
-                        <br>
-                        <label>Allergies? </label>
-                        <input type="checkbox">
-                        <br>
-                        <label>Anything else we should know?</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <h2 class="title">Your Information</h2>
-                        <label>Name : </label>
-                        <input type="text" value="your name" required>
-                        <br>
-                        <label>Email : </label>
-                        <input type="text" value="your.email@email.com" required>
-                        <br>
-                        <label>Pnone Number : </label>
-                        <input type="text" value="000-0000" required>
-        
-                        <h2 class="title">Accept and Order</h2>
-                        <label>I accept the Spilabúður's terms and conditions </label>
-                        <input type="checkbox" required>
-                        <br>
-                        <label>Order</label>
-                        <input type="submit">
-                    </div>
+                    <table>
+                        <thead>
+                            <tr><td colspan=2>Skraou pig a vioburdi hja okkur!</td></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Viðburður</strong>
+                                    <div>
+                                        <label>Hvada viðburð viltu koma á?</label>
+                                        <select><option>Puslukvoid</option></select>
+                                        <label>Hvenaer viltu koma?</label>
+                                        <input type="date"/>
+                                        <label>Klukkan hvao?</label>
+                                        <select><option>10:00-11:00</option></select>
+                                        <label>Hve morg?</label>
+                                        <select><option>1</option></select>
+                                        <label>Hvada viðburð viltu koma á?</label>
+                                        <textarea></textarea>
+                                    </div>
+                                </td>
+                                <td><strong>Panta mat</strong>
+                                    <div>
+                                        <label>Nafn</label>
+                                        <input type="text"/>
+                                        <label>Netfang</label>
+                                        <input type="text" placeholder="nafn@example.org"/>
+                                        <label>Simi</label>
+                                        <input type="text" placeholder="345-6789"/>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pinar upplysingar</strong>
+                                    <div>
+                                        <label>Nafn</label>
+                                         <select><option>Pizzusneid og gos</option></select>
+                                        <input type="checkbox"/><label>Ofnaemi sem vid eigum ad vita?</label>
+                                        <label>Annad sem vid eigum ad vita?</label>
+                                        <textarea></textarea>
+                                    </div>
+                                </td>
+                                <td><strong>Sampykkja og panta</strong>
+                                    <div>
+                                        <input type="checkbox"/><label>Eg sampykki skilmala Spilabudarinnar</label>
+                                        <button>Panta</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </form>
             </div>
         </main>
