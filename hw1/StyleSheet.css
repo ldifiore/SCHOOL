@@ -143,6 +143,8 @@
   nav ul li {
       //display: inline-block;
       margin-right: 1rem;
+      text-align: left;
+      padding: 0px 25% 0px 30%;
   }
   /* TODO Skilgreina aðra selectora fyrir valmynd */
   
