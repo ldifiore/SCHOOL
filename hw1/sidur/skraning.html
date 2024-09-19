@@ -13,118 +13,123 @@
         <h1>Spilabúðin-Skráning á viðburði</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Forsíða</a></li>
-            <li><a href="spil.html">Spil</a></li>
-            <li><a href="vidburdir.html">Viðburðir</a></li>
-            <li><strong>Skráning á viðburði</strong></li>
-        </ul>
-    </nav>
-
-    <div calss="wrapper">
-        <form>
-            <div>
-                <h2 class="title">Event</h2>
-                <label>What event do you want to attend?</label>
-                <select>
-                    <option>Puzzel night</option>
-                    <option>Ticket to Ride</option>
-                </select>
-                <br>
-                <label>When? </label>
-                <input type="date" required>
-                <br>
-                <label>What time? </label>
-                <select>
-                    <option>10:00-11:00</option>
-                    <option>11:00-12:00</option>
-                </select>
-                <br>
-                <label>How Many? </label>
-                <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-                <br>
-                <label>Do you want to mention something? </label>
-                <input type="text">
+    <div class="wrapper-content">
+        <p class="sr-only"><a href="#efni">Beint í efni</a></p>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Forsíða</a></li>
+                    <li><a href="./sidur/spil.html">Spil</a></li>
+                    <li><a href="./sidur/vidburdir.html">Viðburðir</a></li>
+                    <li><strong>Skráning á viðburði</strong></li>
+                </ul>
+            </nav>
+        </aside>
+    
+        <main id="efni">
+            <div class="content">
+                <form>
+                    <div>
+                        <h2 class="title">Event</h2>
+                        <label>What event do you want to attend?</label>
+                        <select>
+                            <option>Puzzel night</option>
+                            <option>Ticket to Ride</option>
+                        </select>
+                        <br>
+                        <label>When? </label>
+                        <input type="date" required>
+                        <br>
+                        <label>What time? </label>
+                        <select>
+                            <option>10:00-11:00</option>
+                            <option>11:00-12:00</option>
+                        </select>
+                        <br>
+                        <label>How Many? </label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <br>
+                        <label>Do you want to mention something? </label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <h2 class="title">Reserve Food</h2>
+                        <label>Do you want some food?</label>
+                        <select>
+                            <option>A slice of pizza and a soda</option>
+                            <option>Coffee and cake</option>
+                            <option>No food</option>
+                        </select>
+                        <br>
+                        <label>Allergies? </label>
+                        <input type="checkbox">
+                        <br>
+                        <label>Anything else we should know?</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <h2 class="title">Your Information</h2>
+                        <label>Name : </label>
+                        <input type="text" value="your name" required>
+                        <br>
+                        <label>Email : </label>
+                        <input type="text" value="your.email@email.com" required>
+                        <br>
+                        <label>Pnone Number : </label>
+                        <input type="text" value="000-0000" required>
+        
+                        <h2 class="title">Accept and Order</h2>
+                        <label>I accept the Spilabúður's terms and conditions </label>
+                        <input type="checkbox" required>
+                        <br>
+                        <label>Order</label>
+                        <input type="submit">
+                    </div>
+                </form>
             </div>
-            <div>
-                <h2 class="title">Reserve Food</h2>
-                <label>Do you want some food?</label>
-                <select>
-                    <option>A slice of pizza and a soda</option>
-                    <option>Coffee and cake</option>
-                    <option>No food</option>
-                </select>
-                <br>
-                <label>Allergies? </label>
-                <input type="checkbox">
-                <br>
-                <label>Anything else we should know?</label>
-                <input type="text">
-            </div>
-            <div>
-                <h2 class="title">Your Information</h2>
-                <label>Name : </label>
-                <input type="text" value="your name" required>
-                <br>
-                <label>Email : </label>
-                <input type="text" value="your.email@email.com" required>
-                <br>
-                <label>Pnone Number : </label>
-                <input type="text" value="000-0000" required>
-
-                <h2 class="title">Accept and Order</h2>
-                <label>I accept the Spilabúður's terms and conditions </label>
-                <input type="checkbox" required>
-                <br>
-                <label>Order</label>
-                <input type="submit">
-            </div>
-        </form>
+        </main>
+    </div>
+    
+    <footer>
+        <section>
+            <h2>Opnunartími</h2>
+            <dl>
+                <dt>Mánudagar</dt><dd>Lokað</dd>
+                <dt>Þriðjudagar til fimmtudags</dt><dd>14:00–22:00</dd>
+                <dt>Föstudaga</dt><dd>14:00–00:00</dd>
+                <dt>Laugardaga</dt><dd>12:00–00:00</dd>
+                <dt>Sunnudaga</dt><dd>12:00–22:00</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Hér erum við</h2>
+            <p>
+                Spilabúðin ehf.</br>
+                Spilgata 1</br>
+                101 Reykjavík</br>
+                Sími 123-4567</br>
+                <a href="spilabudin@example.org">spilabudin@example.org</a>
+            </p>
+        </section>
+        <section>
+            <h2>Samfélagsmiðlar</h2>
+            <p>
+                <a href="https://www.facebook.com/HaskoliIslands/">Facebook</a></br>
+                <a href="https://www.youtube.com/user/HIvarp">YouTube</a></br>
+                <a href="https://www.instagram.com/haskoli_islands/">Instagram</a>
+            </p>
+        </section>
+    </footer>
 </body>
-
-<footer>
-    <section>
-        <h2>Opnunartími</h2>
-        <dl>
-            <dt>Mánudagar</dt><dd>Lokað</dd>
-            <dt>Þriðjudagar til fimmtudags</dt><dd>14:00–22:00</dd>
-            <dt>Föstudaga</dt><dd>14:00–00:00</dd>
-            <dt>Laugardaga</dt><dd>12:00–00:00</dd>
-            <dt>Sunnudaga</dt><dd>12:00–22:00</dd>
-        </dl>
-    </section>
-    <section>
-        <h2>Hér erum við</h2>
-        <p>
-            Spilabúðin ehf.</br>
-            Spilgata 1</br>
-            101 Reykjavík</br>
-            Sími 123-4567</br>
-            <a href="spilabudin@example.org">spilabudin@example.org</a>
-        </p>
-    </section>
-    <section>
-        <h2>Samfélagsmiðlar</h2>
-        <p>
-            <a href="https://www.facebook.com/HaskoliIslands/">Facebook</a></br>
-            <a href="https://www.youtube.com/user/HIvarp">YouTube</a></br>
-            <a href="https://www.instagram.com/haskoli_islands/">Instagram</a>
-        </p>
-    </section>
-</footer>
-</div>
-</body>
-
 </html>
