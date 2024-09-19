@@ -141,7 +141,7 @@
   }
   
   nav ul li {
-      display: inline-block;
+      //display: inline-block;
       margin-right: 1rem;
   }
   /* TODO Skilgreina aðra selectora fyrir valmynd */
