@@ -120,6 +120,8 @@
     padding: 1em 1.5em;
     background-color: #cc99bb;
     text-align: center;
+    border-bottom: 4px solid #cc99bb;
+    background-color: #eebbdd;
   }
   
   /** Valmynd **/
@@ -127,9 +129,9 @@
   nav {
     margin-bottom: 1rem;
     padding: 1rem;
-    border-bottom: 4px solid #cc99bb;
-    background-color: #eebbdd;
-    width: 33vw;
+    //border-bottom: 4px solid #cc99bb;
+    background-color: #f3dd99;
+    width: 28vw;
     height: 100%;
   }
   
